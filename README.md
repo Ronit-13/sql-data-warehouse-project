@@ -30,9 +30,3 @@ Develop SQL based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stackholders with key business metrics, enabling strategic decision-making.
-
----
-
-## License
-
-This project is licenced under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
