@@ -171,8 +171,8 @@ BEGIN
 		CASE WHEN bdate > GETDATE() THEN NULL
 			 ELSE bdate
 		END AS bdate, -- Set Future Bithdates to NULL
-		CASE WHEN TRIM(UPPER(gen)) = 'F' THEN 'Female'
-			 WHEN TRIM(UPPER(gen)) = 'M' THEN 'Male'
+		CASE WHEN TRIM(UPPER(gen)) IN ('F', 'FEMALE') THEN 'Female'
+			 WHEN TRIM(UPPER(gen)) IN ('M', 'MALE') THEN 'Male'
 			 ELSE 'n/a'
 		END AS gen -- Normalize Gender values and handle unknow values
 		FROM bronze.erp_cust_az12
