@@ -30,3 +30,8 @@ Develop SQL based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stackholders with key business metrics, enabling strategic decision-making.
+
+---
+
+##  Data Architecture
+
